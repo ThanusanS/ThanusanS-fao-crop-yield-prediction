@@ -10,7 +10,7 @@ for 20 major crops across 244 countries using **FAO FAOSTAT** production data.
 ```
 crop_yield_project/
 ├── data/
-│   ├── raw/        ← FAO CSV (place here before running)
+│   ├── raw/        ← FAO CSV
 │   └── processed/  ← cleaned & feature-engineered data
 ├── models/         ← saved .pkl model files + metrics.json
 ├── reports/        ← all EDA and evaluation plots (.png)
