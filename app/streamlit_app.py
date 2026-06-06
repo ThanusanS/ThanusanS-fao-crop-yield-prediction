@@ -74,7 +74,11 @@ xgb_m     = next(m for m in metrics if m["model"] == "XGBoost")
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/FAO_logo.svg/200px-FAO_logo.svg.png", width=80)
+    logo_path = os.path.join(ROOT, "app/fao_logo.png")
+    if os.path.exists(logo_path):
+        st.image(logo_path, width=80)
+    else:
+        st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/FAO_logo.svg/120px-FAO_logo.svg.png", width=80)
     st.title("🌾 Crop Yield Predictor")
     st.caption("Powered by FAO FAOSTAT data · XGBoost model")
     st.divider()
