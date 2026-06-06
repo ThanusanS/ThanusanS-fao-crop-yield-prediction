@@ -1,0 +1,143 @@
+# ========================
+# Operating System Files
+# ========================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+Icon?
+._*
+
+# Linux
+*~
+
+# ========================
+# IDE / Editor Files
+# ========================
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# IntelliJ IDEA / WebStorm / PyCharm
+.idea/
+*.iml
+*.iws
+out/
+*.class
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+env/
+venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ========================
+# Node.js / JavaScript
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnp.*
+.eslintcache
+.next/
+dist/
+out/
+coverage/
+*.tsbuildinfo
+
+# ========================
+# Java
+# ========================
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+*.class
+target/
+build/
+
+# ========================
+# C / C++
+# ========================
+*.obj
+*.o
+*.exe
+*.dll
+*.out
+*.app
+*.so
+*.dylib
+*.lib
+
+# ========================
+# Logs and Databases
+# ========================
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# ========================
+# Miscellaneous
+# ========================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.bak
+*.tmp
+*.swp
+*.swo
+*.pid
+*.seed
+
+# ========================
+# Environment / Secrets
+# ========================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+config.json
+credentials.json
